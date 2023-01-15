@@ -1,0 +1,203 @@
+ @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     color: white;
+     font-family: cursive;
+     -webkit-text-stroke-width: 2px;
+     -webkit-text-stroke-color: black;
+ }
+
+ body {
+     background-color: #A0C3D2;
+ }
+
+ /* navbar */
+ .nav1 {
+     height: 80px;
+     width: auto;
+     background-color: #E3ACF9;
+     border-bottom: 2px solid black;
+     text-transform: capitalize;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ /* open popup message */
+ .popup {
+     height: 98%;
+     width: 90%;
+     position: absolute;
+     top: 1%;
+     right: 0%;
+     left: 0%;
+     margin: auto;
+     background-color: #526eba;
+ }
+
+ /* wining  popup message */
+
+ .popup1 {
+     height: 98%;
+     width: 90%;
+     position: absolute;
+     top: 1%;
+     right: 0%;
+     left: 0%;
+     margin: auto;
+     background-color: #7F5283;
+     visibility: hidden;
+ }
+
+ /* poopups styling*/
+
+ .wingamee {
+     transition-delay: 0.5s;
+     visibility: visible;
+ }
+
+ .popupmessage {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .popupmessage h1 {
+     font-size: 100pt;
+     text-transform: capitalize;
+     color: #66bfbf;
+     text-align: center;
+ }
+
+
+ .sun {
+     width: 170px;
+     height: auto;
+     position: absolute;
+     right: 10%;
+     top: 2%;
+ }
+
+ .cloud1 {
+     position: absolute;
+     width: 150px;
+     height: 250px;
+     left: 20%;
+     top: 40%;
+ }
+
+
+ .cloud2 {
+     width: 250px;
+     height: 300px;
+     position: absolute;
+     right: 20%;
+     top: 20%;
+ }
+
+ .mountain {
+     width: 600px;
+     position: absolute;
+     bottom: 0;
+     margin: auto;
+ }
+
+ .sun {
+     width: 170px;
+     height: auto;
+     position: absolute;
+     right: 10%;
+     top: 2%;
+ }
+
+ .cloud3 {
+     position: absolute;
+     width: 150px;
+     height: 250px;
+     left: 70%;
+     top: 40%;
+ }
+
+
+ .cloud4 {
+     width: 250px;
+     height: 300px;
+     position: absolute;
+     right: 70%;
+     top: 20%;
+ }
+
+ .moon {
+     width: 170px;
+     height: auto;
+     position: absolute;
+     left: 10%;
+     top: 2%;
+ }
+
+ /* button styling */
+
+ .start {
+     height: 50px;
+     width: 200px;
+     font-size: 28pt;
+     position: absolute;
+     bottom: 44%;
+     color: black;
+     background-color: #526eba;
+     font-family: 'satisfy';
+     padding-bottom: 3px;
+     border: 1px solid white;
+     border-radius: 10px;
+ }
+
+ .start:hover {
+     /* background-color: #bdbdbd; */
+     color: black;
+     border: 2px solid black;
+     border-radius: 25px;
+ }
+
+ .open-start {
+     visibility: hidden;
+ }
+
+ /* main game grides */
+ .game {
+     background-color: #7F5283;
+     justify-content: center;
+     display: grid;
+     grid-template-columns: 20% 20% 20%;
+     grid-template-rows: 180px 180px 180px;
+ }
+
+ .boxes {
+     border: 2px black solid;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 15vh;
+ }
+
+ .boxes:hover {
+     background-color: #E3ACF9;
+     transform: scale(1.09);
+ }
+/* utility classes */
+ .bt {
+     border-top: none;
+ }
+
+ .br {
+     border-right: none;
+ }
+
+ .bl {
+     border-left: none;
+ }
+
+ .bbb {
+     border-bottom: none;
+ }
